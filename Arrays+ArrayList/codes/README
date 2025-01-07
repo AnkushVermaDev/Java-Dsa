@@ -1,0 +1,79 @@
+                             ////////////////////////////////////     Array:   //////////////////////////////////
+
+# What is it?
+
+Array can be think as container that can hold all the elements of same types. and we have to tell the size of array before storing any element inside array
+
+# Key Features:
+
+> Fixed size: Once you define the size of an array, it cannot grow or shrink.
+
+> Efficient: Accessing elements in an array is very fast.
+
+> Type-specific: All elements in an array must be of the same data type.
+
+
+# Drawbacks
+
+
+> Arrays don’t have methods like add(), remove(), or resize(). You have to manually handle the logic for adding/removing elements or resizing the array.
+
+> An array can only hold elements of the same type. cannot use to hold mix datatypes
+
+> Once an array is created, its size cannot be changed. If you want to add more elements than the array can hold, you’ll have to create a new array and copy the data over.
+
+
+
+
+# When to use an array?
+
+Use an array when you know exactly how many elements you need to store, and you don’t need to change the size after it’s created.
+
+For example, if you're storing a fixed number of student scores or days of the week, an array would be a good choice.
+
+
+
+                     ///////////////////////////////////////////////      ArrayList        ///////////////////////////////////////
+
+# package : java.util.ArrayList
+
+# What is it ?
+
+
+An ArrayList is a flexible, resizable container that stores elements. Unlike arrays, an ArrayList can grow or shrink as you add or remove items.
+
+we can store mix data in it with:  ArrayList<Object> mixedList = new ArrayList<>();  ::: <object> mean that we can store different values using variable mixedList 
+
+# Key Features:
+
+> Dynamic size: The size of an ArrayList can change as you add or remove elements.
+
+> Less efficient: Accessing elements might be a little slower than arrays because ArrayLists manage resizing and may need extra memory.
+
+> Supports generic types: You can use any type of object in an ArrayList (e.g., ArrayList<String>, ArrayList<Integer>).
+
+# When to use an ArrayList?
+
+Use an ArrayList when you don't know the exact number of elements in advance, or if the number of elements may change over time (e.g., adding or removing items from a list).
+If you need to work with a list of items where the size can vary, an ArrayList is ideal.
+
+
+
+
+# Drawbacks of ArrayLists:
+
+
+> Performance Overhead:
+
+ArrayLists can be slower compared to arrays, especially when it comes to resizing the internal array. When the list grows beyond its current capacity, it needs to create a new, larger array and copy all the elements into it, which can be costly in terms of time and memory.
+
+> Memory Consumption:
+
+ArrayLists might use more memory than arrays. They store extra data (like capacity) to support dynamic resizing, and sometimes, even if you don’t have many elements, it may use more memory than needed.
+
+> Slower Access:
+
+While ArrayLists generally provide fast access to elements, the internal structure of an ArrayList (which is an array) could be less efficient for certain operations. For example, removing an element in the middle of the list might require shifting many other elements.
+
+
+
