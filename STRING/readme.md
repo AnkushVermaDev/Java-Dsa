@@ -1,3 +1,5 @@
+                                       String Methods  
+
 charAt(1):
    Retrieves the character at the specified index (1 in this case).
 
