@@ -54,7 +54,7 @@ split(" "):
 
                                        StringBuilder Methods
 
-append("sexy"):
+append("taxy"):
   Adds the specified string to the end of the StringBuilder.
 
 
