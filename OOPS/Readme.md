@@ -1,4 +1,4 @@
-////////////////////////////////////////////////   CLASS //////////////////////////
+            ////////////////////////////////////////////////   CLASS //////////////////////////
 
 
 A class is a blueprint or template for creating objects. It defines the properties (fields/attributes) and behaviors (methods) that the objects created from the class will have
@@ -13,7 +13,7 @@ Real-World Analogy for a Class:
 
 
 
-/////////////////////////////////////   OBJECT ///////////////////////////
+                   /////////////////////////////////////   OBJECT ///////////////////////////
 
 
 An object is an instance of a class. It is a real-world entity that is created using the class blueprint. Each object has its own copy of attributes and methods defined by the class
@@ -23,7 +23,7 @@ An object is an instance of a class. It is a real-world entity that is created u
 LIKE: THERE IS CLASS NAME AS "STUDENT"  AND AS WE KNOW IN CLASS THERE WILL BE LOT OF STUDENTS AND EACH STUDENT HAS DIFFERENT:-  NAME , AGE , BEHAVIOUR 
       SO WE CAN CREATE CLASS OF STUDENT WITH ATTRIBUTE AND FUNCTIONS:>   NAME , AGE , BEHAVIOUR 
 
-      AFTER WE CAN CREATE OBJECT OF THAT CLASS AND EACH OBJECT CAN HAVE DIFFERENT VALUE THAT REPRESENT DATA FOR THAT STUDENT
+AFTER WE CAN CREATE OBJECT OF THAT CLASS AND EACH OBJECT CAN HAVE DIFFERENT VALUE THAT REPRESENT DATA FOR THAT STUDENT
 
 
 ///////////////////////////////////////////////////   ABSTRACTION   ////////////////////
@@ -38,7 +38,7 @@ Key Points About Abstraction:
     
 
 
-/////////////////////////////////////////     ENCAPSULATION  ///////////////////////////////
+          /////////////////////////////////////////     ENCAPSULATION  ///////////////////////////////
 
 
 Definition: 
@@ -60,14 +60,14 @@ Key Points About Encapsulation:
 
 
 
-///////////////////////////   POLYMORISM ///////////////////////////
+                    ///////////////////////////   POLYMORISM ///////////////////////////
 
 
 Polymorphism means "many forms". It allows one entity (like a method or object) to take on multiple forms. Polymorphism enables objects to behave differently based on their context, improving flexibility and reusability in code.
 
 In Java, polymorphism is mainly achieved through method overloading (compile-time polymorphism) and method overriding (runtime polymorphism).
 
-//////////////////////////////////////////// TYPES ////////////////////////
+              //////////////////////////////////////////// TYPES ////////////////////////
 
 Compile-Time Polymorphism (Method Overloading):
 
