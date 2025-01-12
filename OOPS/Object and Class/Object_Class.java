@@ -1,6 +1,6 @@
 /**
  * 
- * This program demonstrates key OOP concepts in Java, including:
+ * This program demonstrates key OOP concepts in Java, including:>
  * 1. Static methods
  * 2. Encapsulation and access specifiers
  * 3. Abstract classes and inheritance
@@ -69,7 +69,7 @@ abstract class animal{
 class goldy_barar extends animal{ //  OUR CLASS NAME : goldy_barar is used this class has responsibility to give defination of abstract class  method()
 
     void bark(){
-        System.out.println("mf dog is barking ");
+        System.out.println("dog is barking ");
     }
 
 }
@@ -95,7 +95,7 @@ class child extends father {
 class child2 extends father{
     @Override
     void writing(){
-        System.out.println("this nigga doesnot have any arms");
+        System.out.println("this child doesnot have any arms");
     }
 }
 
