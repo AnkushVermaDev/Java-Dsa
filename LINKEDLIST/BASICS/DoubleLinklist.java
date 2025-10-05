@@ -50,6 +50,17 @@ class Manager {
 
     }
 
+
+    void deleteatfront(){
+        Node node=head;
+        head=node.next;
+        node=null;
+        
+
+    }
+
+
+
     void show() {
         Node currentnode = head;
         while (currentnode != null) {
@@ -69,6 +80,7 @@ public class DoubleLinklist {
         manager.frontadd(45);
 
         manager.specificadd(1, 69);
+        manager.deleteatfront();
 
         manager.show();
 
